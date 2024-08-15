@@ -25,7 +25,7 @@ def lineNotifyMessage(msg):
 
 
 # def sendSms(smsText):
-#     account_sid = "AC261e9fc43b45b15f156d94ff806b7002"
+#     account_sid = "-----AC261e9fc43b45b15f156d94ff806b7002------"
 #     auth_token = "9b2ad81e1070ee909e6878391526c9aa"
 #     client = Client(account_sid, auth_token)
 #     # 傳送簡訊
