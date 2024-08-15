@@ -8,7 +8,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding = 'utf8')
 
 
 def lineNotifyMessage(msg):
-    token = 'KOjU7cFm8lMz3aZxbnmkHh4w5laDFbLkyDKy7ZXyqqO' # 替換成您的 Line Notify Token
+    token = 'KOjU7cFm8lMz3aZxbnmkHh4w5laDFbLkyDKy7ZXyqqO' # 替換Line Notify Token
     headers = {
         "Authorization": "Bearer " + token, 
         "Content-Type": "application/x-www-form-urlencoded"
